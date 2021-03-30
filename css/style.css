@@ -1,0 +1,254 @@
+/* GLobal Style */
+html {
+	background-color: #EDF2C5;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+}
+
+hr {
+	margin: 16px 0px;
+	background-color: #7D7D7D;
+	height: 1px;
+}
+
+button {
+	border: 1px solid #778A50;
+	color: #778A50;
+	background-color: #EDF2C5;
+	border-radius: 3px;
+	height: 25px;
+}
+
+.container {
+	max-width: 940px;
+	margin-top: 53px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* Header Style */
+.header {
+	/* padding-bottom: 20px; */
+	color: #617140;
+}
+
+.header-title {
+	font-family: Arial Black;
+	color: #778A50;
+	font-weight: normal;
+	font-size: 36px;
+	float: left;
+}
+
+.header-top {
+	height: 42px;
+	width: 940px;
+	margin-bottom: 8px;
+}
+
+.header-right {
+/*	margin-bottom: 17px;*/
+	height: 42px;
+	float: right;
+}
+
+.vl {
+	height: 25px;
+	border-right: 1px solid #778A50;
+	float: right;
+}
+
+.btn {
+	float: right;
+	margin: 0px 10px;
+	font-family: Arial;
+	font-weight: BoldMT;
+	font-size: 14px;
+}
+
+.box1{
+	border : 1px;
+	color : #778A50;
+	background color : #617140;
+
+}
+
+/* Navitation Bar Style */
+.nav {
+	width: 940px;
+	/*margin-top: 20px;*/
+	/*padding: 16px 317px 16px 30px;*/
+	background-color: #617140;
+}
+
+.nav-list {
+	font-family: Arial Black;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-sublist {
+	position: absolute;
+	background-color: #617140;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	padding: 16px 30px;
+}
+
+.nav-list-item-link {
+	display: block;
+	color: #EDF2C5;
+	text-decoration: none;
+	border: 3px solid #617140;
+	border-bottom: none;
+}
+
+.nav-list-item-link:hover {
+	/* background-color: #e5e9dc; */
+}
+
+.nav-list-item:hover > .nav-list-item-link {
+	background-color: #617140;
+}
+
+
+.nav-sublist .nav-list-item-link:hover {
+	background-color: #617140;
+	color: #fff;
+}
+
+
+
+.nav-list-item:hover .nav-sublist{
+	display: block;
+}
+
+.nav-list-item:hover .nav-sublist{
+	display: block;
+}
+
+/* Content Style */
+.banner {
+	display: flex;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+	margin-top: 20px;
+}
+
+/* Main-Area Style */
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+/* SideBar Style */
+.sidebar {
+	width: 34%;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+.logo {
+	margin: 0px 10px;
+	float: right;
+}
+
+.content {
+	width: 940px; 
+    float: left;
+    font-family: Arial Black;
+}
+
+.leftbox {
+	width: 445px; 
+	float: left;
+	margin-top: 30px;
+}
+
+.box-title {
+	background-color: #778A50;
+	font-size: 16px;
+	padding: 15px 30px;
+	color: #EDF2C5;
+}
+
+.box-content {
+	margin-top: 15px;
+}
+
+.img {
+	float:left;
+}
+
+.img1 {
+	margin-right: 6px;
+}
+
+.img2 {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.img3 {
+	margin-left: 6px;
+}
+
+.rightbox {
+	width: 445px; 
+	height: 45px;
+    float: right;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.box-content2 {
+	background-color: #F7FBDA;
+	color: #7D7D7D;
+	font-family: ArialMT;
+	font-weight: regular;
+	font-size: 12px;
+	margin-top: 15px;
+	padding: 16px 15px;
+}
+
+.veg-content {
+	line-height: 1.33;
+}
+
+.contact-info {
+	line-height: 1.83;
+}
+
+/* Footer */
+.footer {
+	background-color: #778A50;
+	padding: 24px 479px 25px 479px;
+	margin-top: 35px;
+	float: left;
+}
+
+.footer-text {
+	font-family: ArialMT;
+	font-weight: regular;
+	color: #EDF2C5;
+	font-size: 12px;
+}
